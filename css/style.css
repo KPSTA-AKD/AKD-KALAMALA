@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #f8f9fa; /* Change to your preferred color */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-brand div {
+    display: inline-block;
+}
+
+#carouselExample {
+    height: auto; /* Adjust the height as needed */
+}
+
+/* Reduce the height of the carousel images */
+.carousel-item img {
+    max-height: 900px; /* Adjust the height as needed */
+}
+
+/* Style for the fixed bottom footer */
+.footer.fixed-bottom {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    color: #495057;
+}
+
+/* Style for the logo and address */
+.footer-logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-address {
+    float: right;
+    margin-right: 20px;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust this value as needed */
+}
+
+.download-button {
+    margin-top: 18px; /* Adjust the margin as needed */
+}
+
+table {
+    border: 2px solid #3498db; /* Set border color and thickness */
+    width: auto; /* Adjust table width as needed */
+    margin: auto; /* Center the table */
+    font-family:sans-serif;
+}
+
+table th,
+table td {
+    border: 2px solid #3498db; /* Set cell border color and thickness */
+}
+
+table thead th {
+    background-color: #3498db; /* Set header background color */
+    color: #fff; /* Set header text color */
+}
+
+h10{
+  color: #116D6E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rolling-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.rolling-text {
+    display: inline-block;
+    animation: roll 10s linear infinite;
+}
+
+@keyframes roll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
