@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="google-adsense-account" content="ca-pub-7813075886058426">
+    <title>AREEKODE SUB-DISRTICT KALOLSAVAM 2023-24</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</head>
+
+<body style="background-color: #D8D9DA;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" style="background-color: #EEEEEE; color: #45474B;">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="image/logo.png" width="70" height="70" alt="Your Logo" style="margin-right: 10px;">
+          </a>
+          <a>
+              <br>
+             <div>AREEKODE SUB-DISRTICT</div>
+             <br>
+             <div>KALOLSAVAM 2023-24</div>
+          </a>
+          <a>
+             <br>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Result-Item Wise</a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown" style="background-color: #B4B4B3;">
+                        <a class="dropdown-item" href="LP-General.html">LP-General</a>
+                        <a class="dropdown-item" href="UP-General.html">UP-General</a>
+                        <a class="dropdown-item" href="HS-General.html">HS-General</a>
+                        <a class="dropdown-item" href="HSS-General.html">HSS-General</a>
+                        <a class="dropdown-item" href="UP-Sanskrit.html">UP-Sanskrit</a>
+                        <a class="dropdown-item" href="HS-Sanskrit.html">HS-Sanskrit</a>
+                        <a class="dropdown-item" href="LP-Arabic.html">LP-Arabic</a>
+                        <a class="dropdown-item" href="UP-Arabic.html">UP-Arabic</a>
+                        <a class="dropdown-item" href="HS-Arabic.html">HS-Arabic</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Result-Overall</a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown" style="background-color: #B4B4B3;">
+                        <a class="dropdown-item" href="pdf/result-overall/LP-G.pdf">LP-General</a>
+                        <a class="dropdown-item" href="pdf/result-overall/UP-G.pdf">UP-General</a>
+                        <a class="dropdown-item" href="pdf/result-overall/HS-G.pdf">HS-General</a>
+                        <a class="dropdown-item" href="pdf/result-overall/HSS-G.pdf">HSS-General</a>
+                        <a class="dropdown-item" href="pdf/result-overall/UP-S.pdf">UP-Sanskrit</a>
+                        <a class="dropdown-item" href="pdf/result-overall/HS-S.pdf">HS-Sanskrit</a>
+                        <a class="dropdown-item" href="pdf/result-overall/LP-A.pdf">LP-Arabic</a>
+                        <a class="dropdown-item" href="pdf/result-overall/UP-A.pdf">UP-Arabic</a>
+                        <a class="dropdown-item" href="pdf/result-overall/HS-A.pdf">HS-Arabic</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+
+    <!-- Table -->
+    <div class="container text-center">
+      <h3>HS-General</h3>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+             <p class="text-center">Search:</p>
+             <div class="input-group">
+                 <input type="text" id="searchInput" class="form-control" placeholder="Enter Item-Code or program-name" oninput="searchTable()">
+                 <div class="input-group-append">
+                     <button class="btn btn-outline-secondary" type="button" onclick="searchTable()">Search</button>
+                 </div>
+             </div>
+         </div>
+       </div>
+      <br>
+      <table class="table mx-auto" id="resultTable">
+            <thead>
+                <tr>
+                    <th>Item-Code</th>
+                    <th>Program - Name</th>
+                    <th>Download/View File</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td>601</td>
+                  <td> Chithra Rachana - Pencil</td>
+                  <td>
+                      <a href="pdf/result-item wise/601.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>602</td>
+                  <td> Chithra Rachana - Water Colour</td>
+                  <td>
+                      <a href="pdf/result-item wise/602.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>603</td>
+                  <td> Chithra Rachana - Oil Colour</td>
+                  <td>
+                      <a href="pdf/result-item wise/603.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>604</td>
+                  <td> Cartoon</td>
+                  <td>
+                      <a href="pdf/result-item wise/604.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>606</td>
+                  <td> Sasthreeya Sangeetham(Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/606.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>609</td>
+                  <td> Lalithaganam (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/609.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>610</td>
+                  <td> Lalithaganam (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/610.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>611</td>
+                  <td> Mappilappattu (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/611.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>612</td>
+                  <td> Mappilappattu (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/612.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>683</td>
+                  <td> Gazal Alapanam ( Urdu )</td>
+                  <td>
+                      <a href="pdf/result-item wise/683.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>614</td>
+                  <td> Violin - Paschathyam</td>
+                  <td>
+                      <a href="pdf/result-item wise/614.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>615</td>
+                  <td> Violin - Paurasthyam</td>
+                  <td>
+                      <a href="pdf/result-item wise/615.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>616</td>
+                  <td> Odakuzhal</td>
+                  <td>
+                      <a href="pdf/result-item wise/616.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>618</td>
+                  <td> Chenda / Thayambaka</td>
+                  <td>
+                      <a href="pdf/result-item wise/618.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>620</td>
+                  <td> Thabala</td>
+                  <td>
+                      <a href="pdf/result-item wise/620.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>1008</td>
+                  <td> Ottanthullal (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/1008.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>1010</td>
+                  <td> Nadodi Nrutham (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/1010.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>631</td>
+                  <td> Bharathanatyam (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/631.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>633</td>
+                  <td> Kuchuppudi (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/633.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>634</td>
+                  <td> Mohiniyattam (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/634.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>682</td>
+                  <td> Kerala Nadanam (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/682.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>636</td>
+                  <td> Prasangam - Malayalam</td>
+                  <td>
+                      <a href="pdf/result-item wise/636.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>637</td>
+                  <td> Prasangam - English</td>
+                  <td>
+                      <a href="pdf/result-item wise/637.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>638</td>
+                  <td> Prasangam - Hindi</td>
+                  <td>
+                      <a href="pdf/result-item wise/638.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>685</td>
+                  <td> Prasangam Urdu</td>
+                  <td>
+                      <a href="pdf/result-item wise/685.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>690</td>
+                  <td> Prasangam - Tamil</td>
+                  <td>
+                      <a href="pdf/result-item wise/690.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>691</td>
+                  <td> Prasangam - Kannada</td>
+                  <td>
+                      <a href="pdf/result-item wise/691.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>639</td>
+                  <td> Kavitharachana - Malayalam</td>
+                  <td>
+                      <a href="pdf/result-item wise/639.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>640</td>
+                  <td>Katharachana - Malayalam</td>
+                  <td>
+                      <a href="pdf/result-item wise/640.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>641</td>
+                  <td> Kavitharachana - Hindi</td>
+                  <td>
+                      <a href="pdf/result-item wise/641.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>642</td>
+                  <td> Katharachana - Hindi</td>
+                  <td>
+                      <a href="pdf/result-item wise/642.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>643</td>
+                  <td> Upanyasam - Malayalam</td>
+                  <td>
+                      <a href="pdf/result-item wise/643.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>644</td>
+                  <td> Upanyasam - English</td>
+                  <td>
+                      <a href="pdf/result-item wise/644.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>645</td>
+                  <td> Upanyasam - Hindi</td>
+                  <td>
+                      <a href="pdf/result-item wise/645.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>646</td>
+                  <td> Upanyasam - Urdu</td>
+                  <td>
+                      <a href="pdf/result-item wise/646.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>647</td>
+                  <td> Katharachana - Urdu</td>
+                  <td>
+                      <a href="pdf/result-item wise/647.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>648</td>
+                  <td> Kavitharachana - Urdu</td>
+                  <td>
+                      <a href="pdf/result-item wise/648.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>692</td>
+                  <td> Kavitharachana - English</td>
+                  <td>
+                      <a href="pdf/result-item wise/692.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>693</td>
+                  <td> Kavitharachana - Tamil</td>
+                  <td>
+                      <a href="pdf/result-item wise/693.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>694</td>
+                  <td> Kavitharachana - Kannada</td>
+                  <td>
+                      <a href="pdf/result-item wise/694.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>695</td>
+                  <td> Katharachana - English</td>
+                  <td>
+                      <a href="pdf/result-item wise/695.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>649</td>
+                  <td> Padyam Chollal - Malayalam</td>
+                  <td>
+                      <a href="pdf/result-item wise/649.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>650</td>
+                  <td> Padyam Chollal - English</td>
+                  <td>
+                      <a href="pdf/result-item wise/650.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>651</td>
+                  <td> Padyam Chollal - Hindi</td>
+                  <td>
+                      <a href="pdf/result-item wise/651.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>652</td>
+                  <td> Padyam Chollal - Arabic</td>
+                  <td>
+                      <a href="pdf/result-item wise/652.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>653</td>
+                  <td> Padyam Chollal - Urdu</td>
+                  <td>
+                      <a href="pdf/result-item wise/653.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>654</td>
+                  <td> Padyam Chollal - Tamil</td>
+                  <td>
+                      <a href="pdf/result-item wise/654.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>655</td>
+                  <td> Padyam Chollal - Kannada</td>
+                  <td>
+                      <a href="pdf/result-item wise/655.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>656</td>
+                  <td> Aksharaslokam</td>
+                  <td>
+                      <a href="pdf/result-item wise/656.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>657</td>
+                  <td> Kavyakeli</td>
+                  <td>
+                      <a href="pdf/result-item wise/657.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>658</td>
+                  <td> Mono Act (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/658.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>659</td>
+                  <td> Mono Act (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/659.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>662</td>
+                  <td> Kathaprasangam</td>
+                  <td>
+                      <a href="pdf/result-item wise/662.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>696</td>
+                  <td> Mimicry (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/696.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>663</td>
+                  <td> Parichamuttu (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/663.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>664</td>
+                  <td> Poorakkali (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/664.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>665</td>
+                  <td> Kolkali (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/665.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>666</td>
+                  <td> Arabanamuttu (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/666.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>667</td>
+                  <td> Dafmuttu (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/667.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>668</td>
+                  <td> Margamkali (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/668.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>669</td>
+                  <td> Thiruvathirakali (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/669.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>670</td>
+                  <td> Oppana (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/670.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>671</td>
+                  <td> Vattappattu (Boys)</td>
+                  <td>
+                      <a href="pdf/result-item wise/671.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>672</td>
+                  <td> Sangha Nrutham (Girls)</td>
+                  <td>
+                      <a href="pdf/result-item wise/672.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>680</td>
+                  <td> Desabhakthiganam</td>
+                  <td>
+                      <a href="pdf/result-item wise/680.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>687</td>
+                  <td> Vanchipattu</td>
+                  <td>
+                      <a href="pdf/result-item wise/687.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>688</td>
+                  <td> Nadanpattu</td>
+                  <td>
+                      <a href="pdf/result-item wise/688.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>689</td>
+                  <td> Groupsong Urdu</td>
+                  <td>
+                      <a href="pdf/result-item wise/689.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>697</td>
+                  <td> Groupsong</td>
+                  <td>
+                      <a href="pdf/result-item wise/697.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>675</td>
+                  <td> Chendamelam</td>
+                  <td>
+                      <a href="pdf/result-item wise/675.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>678</td>
+                  <td> Vrunda Vadyam</td>
+                  <td>
+                      <a href="pdf/result-item wise/678.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>698</td>
+                  <td> Skit English</td>
+                  <td>
+                      <a href="pdf/result-item wise/698.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>677</td>
+                  <td> Nadakam</td>
+                  <td>
+                      <a href="pdf/result-item wise/677.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>686</td>
+                  <td> Chavittu Nadakam</td>
+                  <td>
+                      <a href="pdf/result-item wise/686.pdf" class="btn btn-primary" download>Download PDF</a>
+                  </td>
+              </tr>
+
+            </tbody>
+        </table>
+    </div>
+  <br><br><br><br><br>
+
+  <!-- Fixed Footer at the Bottom of the Page -->
+  <footer class="footer fixed-bottom bg-light">
+      <div class="container" >
+          <div class="footer-logo">
+              <img src="image/logo1.png" width="30" height="30" alt="Footer Logo">
+              KPSTA
+          </div>
+      </div>
+  </footer>
+
+</body>
+</html>
